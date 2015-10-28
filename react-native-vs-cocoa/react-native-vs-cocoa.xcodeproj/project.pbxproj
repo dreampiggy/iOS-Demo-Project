@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32885BB51BDE5399000E16DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32885BB41BDE5399000E16DC /* AppDelegate.swift */; };
+		32885BB71BDE5399000E16DC /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32885BB61BDE5399000E16DC /* MovieViewController.swift */; };
+		32885BBA1BDE5399000E16DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32885BB81BDE5399000E16DC /* Main.storyboard */; };
+		32885BBC1BDE5399000E16DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32885BBB1BDE5399000E16DC /* Images.xcassets */; };
+		32885BBF1BDE5399000E16DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32885BBD1BDE5399000E16DC /* LaunchScreen.xib */; };
+		32885BCB1BDE539A000E16DC /* react_native_vs_cocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32885BCA1BDE539A000E16DC /* react_native_vs_cocoaTests.swift */; };
+		32885BDC1BDE5477000E16DC /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32885BDA1BDE5477000E16DC /* Alamofire.swift */; };
+		32885BDD1BDE5477000E16DC /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32885BDB1BDE5477000E16DC /* SwiftyJSON.swift */; };
+		32B1E9331BE07E5C00590B6A /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B1E9321BE07E5C00590B6A /* MovieTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32885BC51BDE539A000E16DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32885BA71BDE5399000E16DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32885BAE1BDE5399000E16DC;
+			remoteInfo = "react-native-vs-cocoa";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32885BAF1BDE5399000E16DC /* react-native-vs-cocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "react-native-vs-cocoa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32885BB31BDE5399000E16DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32885BB41BDE5399000E16DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32885BB61BDE5399000E16DC /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		32885BB91BDE5399000E16DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32885BBB1BDE5399000E16DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		32885BBE1BDE5399000E16DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		32885BC41BDE539A000E16DC /* react-native-vs-cocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "react-native-vs-cocoaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32885BC91BDE539A000E16DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32885BCA1BDE539A000E16DC /* react_native_vs_cocoaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = react_native_vs_cocoaTests.swift; sourceTree = "<group>"; };
+		32885BDA1BDE5477000E16DC /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		32885BDB1BDE5477000E16DC /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		32B1E9321BE07E5C00590B6A /* MovieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32885BAC1BDE5399000E16DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32885BC11BDE539A000E16DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32885BA61BDE5399000E16DC = {
+			isa = PBXGroup;
+			children = (
+				32885BB11BDE5399000E16DC /* react-native-vs-cocoa */,
+				32885BC71BDE539A000E16DC /* react-native-vs-cocoaTests */,
+				32885BB01BDE5399000E16DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32885BB01BDE5399000E16DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32885BAF1BDE5399000E16DC /* react-native-vs-cocoa.app */,
+				32885BC41BDE539A000E16DC /* react-native-vs-cocoaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32885BB11BDE5399000E16DC /* react-native-vs-cocoa */ = {
+			isa = PBXGroup;
+			children = (
+				32885BD91BDE5477000E16DC /* Libraries */,
+				32885BB41BDE5399000E16DC /* AppDelegate.swift */,
+				32885BB61BDE5399000E16DC /* MovieViewController.swift */,
+				32B1E9321BE07E5C00590B6A /* MovieTableViewCell.swift */,
+				32885BB81BDE5399000E16DC /* Main.storyboard */,
+				32885BBB1BDE5399000E16DC /* Images.xcassets */,
+				32885BBD1BDE5399000E16DC /* LaunchScreen.xib */,
+				32885BB21BDE5399000E16DC /* Supporting Files */,
+			);
+			path = "react-native-vs-cocoa";
+			sourceTree = "<group>";
+		};
+		32885BB21BDE5399000E16DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32885BB31BDE5399000E16DC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32885BC71BDE539A000E16DC /* react-native-vs-cocoaTests */ = {
+			isa = PBXGroup;
+			children = (
+				32885BCA1BDE539A000E16DC /* react_native_vs_cocoaTests.swift */,
+				32885BC81BDE539A000E16DC /* Supporting Files */,
+			);
+			path = "react-native-vs-cocoaTests";
+			sourceTree = "<group>";
+		};
+		32885BC81BDE539A000E16DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32885BC91BDE539A000E16DC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32885BD91BDE5477000E16DC /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				32885BDA1BDE5477000E16DC /* Alamofire.swift */,
+				32885BDB1BDE5477000E16DC /* SwiftyJSON.swift */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32885BAE1BDE5399000E16DC /* react-native-vs-cocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32885BCE1BDE539A000E16DC /* Build configuration list for PBXNativeTarget "react-native-vs-cocoa" */;
+			buildPhases = (
+				32885BAB1BDE5399000E16DC /* Sources */,
+				32885BAC1BDE5399000E16DC /* Frameworks */,
+				32885BAD1BDE5399000E16DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "react-native-vs-cocoa";
+			productName = "react-native-vs-cocoa";
+			productReference = 32885BAF1BDE5399000E16DC /* react-native-vs-cocoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32885BC31BDE539A000E16DC /* react-native-vs-cocoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32885BD11BDE539A000E16DC /* Build configuration list for PBXNativeTarget "react-native-vs-cocoaTests" */;
+			buildPhases = (
+				32885BC01BDE539A000E16DC /* Sources */,
+				32885BC11BDE539A000E16DC /* Frameworks */,
+				32885BC21BDE539A000E16DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32885BC61BDE539A000E16DC /* PBXTargetDependency */,
+			);
+			name = "react-native-vs-cocoaTests";
+			productName = "react-native-vs-cocoaTests";
+			productReference = 32885BC41BDE539A000E16DC /* react-native-vs-cocoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32885BA71BDE5399000E16DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = dreampiggy;
+				TargetAttributes = {
+					32885BAE1BDE5399000E16DC = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					32885BC31BDE539A000E16DC = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 32885BAE1BDE5399000E16DC;
+					};
+				};
+			};
+			buildConfigurationList = 32885BAA1BDE5399000E16DC /* Build configuration list for PBXProject "react-native-vs-cocoa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32885BA61BDE5399000E16DC;
+			productRefGroup = 32885BB01BDE5399000E16DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32885BAE1BDE5399000E16DC /* react-native-vs-cocoa */,
+				32885BC31BDE539A000E16DC /* react-native-vs-cocoaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32885BAD1BDE5399000E16DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32885BBA1BDE5399000E16DC /* Main.storyboard in Resources */,
+				32885BBF1BDE5399000E16DC /* LaunchScreen.xib in Resources */,
+				32885BBC1BDE5399000E16DC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32885BC21BDE539A000E16DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32885BAB1BDE5399000E16DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B1E9331BE07E5C00590B6A /* MovieTableViewCell.swift in Sources */,
+				32885BDC1BDE5477000E16DC /* Alamofire.swift in Sources */,
+				32885BB71BDE5399000E16DC /* MovieViewController.swift in Sources */,
+				32885BB51BDE5399000E16DC /* AppDelegate.swift in Sources */,
+				32885BDD1BDE5477000E16DC /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32885BC01BDE539A000E16DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32885BCB1BDE539A000E16DC /* react_native_vs_cocoaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32885BC61BDE539A000E16DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32885BAE1BDE5399000E16DC /* react-native-vs-cocoa */;
+			targetProxy = 32885BC51BDE539A000E16DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32885BB81BDE5399000E16DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32885BB91BDE5399000E16DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32885BBD1BDE5399000E16DC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32885BBE1BDE5399000E16DC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32885BCC1BDE539A000E16DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32885BCD1BDE539A000E16DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32885BCF1BDE539A000E16DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "react-native-vs-cocoa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32885BD01BDE539A000E16DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "react-native-vs-cocoa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32885BD21BDE539A000E16DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "react-native-vs-cocoaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/react-native-vs-cocoa.app/react-native-vs-cocoa";
+			};
+			name = Debug;
+		};
+		32885BD31BDE539A000E16DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "react-native-vs-cocoaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/react-native-vs-cocoa.app/react-native-vs-cocoa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32885BAA1BDE5399000E16DC /* Build configuration list for PBXProject "react-native-vs-cocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32885BCC1BDE539A000E16DC /* Debug */,
+				32885BCD1BDE539A000E16DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32885BCE1BDE539A000E16DC /* Build configuration list for PBXNativeTarget "react-native-vs-cocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32885BCF1BDE539A000E16DC /* Debug */,
+				32885BD01BDE539A000E16DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32885BD11BDE539A000E16DC /* Build configuration list for PBXNativeTarget "react-native-vs-cocoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32885BD21BDE539A000E16DC /* Debug */,
+				32885BD31BDE539A000E16DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32885BA71BDE5399000E16DC /* Project object */;
+}
