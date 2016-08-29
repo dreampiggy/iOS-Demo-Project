@@ -7,7 +7,8 @@
 #### Environment
 
 ```bash
-Xcode 6.3(Swift 1.2) -> Easy to convert to Swift 2.0
+Xcode 7.3(Swift 2.7) and CocoaPods
+Run pod install before open with Xcode
 ```
 
 #### Screenshot
