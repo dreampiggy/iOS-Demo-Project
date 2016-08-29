@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20A65B6BA72613FD45E282BE /* Pods_react_native_vs_cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D51BC74497B0067A619F40F /* Pods_react_native_vs_cocoa.framework */; };
 		32885BB51BDE5399000E16DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32885BB41BDE5399000E16DC /* AppDelegate.swift */; };
 		32885BB71BDE5399000E16DC /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32885BB61BDE5399000E16DC /* MovieViewController.swift */; };
 		32885BBA1BDE5399000E16DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32885BB81BDE5399000E16DC /* Main.storyboard */; };
 		32885BBC1BDE5399000E16DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32885BBB1BDE5399000E16DC /* Images.xcassets */; };
 		32885BBF1BDE5399000E16DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32885BBD1BDE5399000E16DC /* LaunchScreen.xib */; };
 		32885BCB1BDE539A000E16DC /* react_native_vs_cocoaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32885BCA1BDE539A000E16DC /* react_native_vs_cocoaTests.swift */; };
-		32885BDC1BDE5477000E16DC /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32885BDA1BDE5477000E16DC /* Alamofire.swift */; };
-		32885BDD1BDE5477000E16DC /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32885BDB1BDE5477000E16DC /* SwiftyJSON.swift */; };
 		32B1E9331BE07E5C00590B6A /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B1E9321BE07E5C00590B6A /* MovieTableViewCell.swift */; };
+		52B24C38BECA167690F6E7A2 /* Pods_react_native_vs_cocoaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9195F8B1EBD5FC377D39B59 /* Pods_react_native_vs_cocoaTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +39,13 @@
 		32885BC41BDE539A000E16DC /* react-native-vs-cocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "react-native-vs-cocoaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32885BC91BDE539A000E16DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32885BCA1BDE539A000E16DC /* react_native_vs_cocoaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = react_native_vs_cocoaTests.swift; sourceTree = "<group>"; };
-		32885BDA1BDE5477000E16DC /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
-		32885BDB1BDE5477000E16DC /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		32B1E9321BE07E5C00590B6A /* MovieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		501AB02027A2027D0A50D02B /* Pods-react-native-vs-cocoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-native-vs-cocoa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-react-native-vs-cocoa/Pods-react-native-vs-cocoa.debug.xcconfig"; sourceTree = "<group>"; };
+		5D4F7A4355EF12815D20CC08 /* Pods-react-native-vs-cocoaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-native-vs-cocoaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-react-native-vs-cocoaTests/Pods-react-native-vs-cocoaTests.release.xcconfig"; sourceTree = "<group>"; };
+		5D51BC74497B0067A619F40F /* Pods_react_native_vs_cocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_react_native_vs_cocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5315FF99DD5BB942D1391A4 /* Pods-react-native-vs-cocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-native-vs-cocoa.release.xcconfig"; path = "Pods/Target Support Files/Pods-react-native-vs-cocoa/Pods-react-native-vs-cocoa.release.xcconfig"; sourceTree = "<group>"; };
+		E655C59F03B6AFFB991F020B /* Pods-react-native-vs-cocoaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-native-vs-cocoaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-react-native-vs-cocoaTests/Pods-react-native-vs-cocoaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9195F8B1EBD5FC377D39B59 /* Pods_react_native_vs_cocoaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_react_native_vs_cocoaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20A65B6BA72613FD45E282BE /* Pods_react_native_vs_cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B24C38BECA167690F6E7A2 /* Pods_react_native_vs_cocoaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +74,8 @@
 				32885BB11BDE5399000E16DC /* react-native-vs-cocoa */,
 				32885BC71BDE539A000E16DC /* react-native-vs-cocoaTests */,
 				32885BB01BDE5399000E16DC /* Products */,
+				B165BF800AA074331D1D5F47 /* Pods */,
+				E85A36603B7201820AAD7674 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,7 +91,6 @@
 		32885BB11BDE5399000E16DC /* react-native-vs-cocoa */ = {
 			isa = PBXGroup;
 			children = (
-				32885BD91BDE5477000E16DC /* Libraries */,
 				32885BB41BDE5399000E16DC /* AppDelegate.swift */,
 				32885BB61BDE5399000E16DC /* MovieViewController.swift */,
 				32B1E9321BE07E5C00590B6A /* MovieTableViewCell.swift */,
@@ -120,13 +127,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		32885BD91BDE5477000E16DC /* Libraries */ = {
+		B165BF800AA074331D1D5F47 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				32885BDA1BDE5477000E16DC /* Alamofire.swift */,
-				32885BDB1BDE5477000E16DC /* SwiftyJSON.swift */,
+				501AB02027A2027D0A50D02B /* Pods-react-native-vs-cocoa.debug.xcconfig */,
+				A5315FF99DD5BB942D1391A4 /* Pods-react-native-vs-cocoa.release.xcconfig */,
+				E655C59F03B6AFFB991F020B /* Pods-react-native-vs-cocoaTests.debug.xcconfig */,
+				5D4F7A4355EF12815D20CC08 /* Pods-react-native-vs-cocoaTests.release.xcconfig */,
 			);
-			path = Libraries;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E85A36603B7201820AAD7674 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D51BC74497B0067A619F40F /* Pods_react_native_vs_cocoa.framework */,
+				F9195F8B1EBD5FC377D39B59 /* Pods_react_native_vs_cocoaTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32885BCE1BDE539A000E16DC /* Build configuration list for PBXNativeTarget "react-native-vs-cocoa" */;
 			buildPhases = (
+				152167FA58529420F8D2B8B5 /* [CP] Check Pods Manifest.lock */,
 				32885BAB1BDE5399000E16DC /* Sources */,
 				32885BAC1BDE5399000E16DC /* Frameworks */,
 				32885BAD1BDE5399000E16DC /* Resources */,
+				92EEFC44827546A79F6B2E9F /* [CP] Embed Pods Frameworks */,
+				6286B16E24CABD27AB86993A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -153,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32885BD11BDE539A000E16DC /* Build configuration list for PBXNativeTarget "react-native-vs-cocoaTests" */;
 			buildPhases = (
+				348CEF27E57A8EBCDB541E8D /* [CP] Check Pods Manifest.lock */,
 				32885BC01BDE539A000E16DC /* Sources */,
 				32885BC11BDE539A000E16DC /* Frameworks */,
 				32885BC21BDE539A000E16DC /* Resources */,
+				333C72B9FA6E20C8CCDFADF5 /* [CP] Embed Pods Frameworks */,
+				DC578CFD33C9B7D3182EC29C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,6 +197,7 @@
 		32885BA71BDE5399000E16DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0730;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = dreampiggy;
 				TargetAttributes = {
@@ -224,16 +249,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		152167FA58529420F8D2B8B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		333C72B9FA6E20C8CCDFADF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-react-native-vs-cocoaTests/Pods-react-native-vs-cocoaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		348CEF27E57A8EBCDB541E8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6286B16E24CABD27AB86993A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-react-native-vs-cocoa/Pods-react-native-vs-cocoa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92EEFC44827546A79F6B2E9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-react-native-vs-cocoa/Pods-react-native-vs-cocoa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC578CFD33C9B7D3182EC29C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-react-native-vs-cocoaTests/Pods-react-native-vs-cocoaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		32885BAB1BDE5399000E16DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				32B1E9331BE07E5C00590B6A /* MovieTableViewCell.swift in Sources */,
-				32885BDC1BDE5477000E16DC /* Alamofire.swift in Sources */,
 				32885BB71BDE5399000E16DC /* MovieViewController.swift in Sources */,
 				32885BB51BDE5399000E16DC /* AppDelegate.swift in Sources */,
-				32885BDD1BDE5477000E16DC /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +476,7 @@
 		};
 		32885BCF1BDE539A000E16DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 501AB02027A2027D0A50D02B /* Pods-react-native-vs-cocoa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "react-native-vs-cocoa/Info.plist";
@@ -370,6 +487,7 @@
 		};
 		32885BD01BDE539A000E16DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5315FF99DD5BB942D1391A4 /* Pods-react-native-vs-cocoa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "react-native-vs-cocoa/Info.plist";
@@ -380,6 +498,7 @@
 		};
 		32885BD21BDE539A000E16DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E655C59F03B6AFFB991F020B /* Pods-react-native-vs-cocoaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -399,6 +518,7 @@
 		};
 		32885BD31BDE539A000E16DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D4F7A4355EF12815D20CC08 /* Pods-react-native-vs-cocoaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
