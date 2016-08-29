@@ -7,7 +7,8 @@
 //
 
 import UIKit
-//import Alamofire
+import Alamofire
+import SwiftyJSON
 
 class MovieViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
@@ -29,9 +30,16 @@ class MovieViewController: UIViewController, UITableViewDataSource, UITableViewD
     func fetchData() {
         indicator.startAnimating()
         request(.GET, API_URL, parameters: ["apikey": API_KEY, "page_limit": PAGE_SIZE])
-            .responseJSON{ _, _, data, _ in
-                self.render(JSON(data!))
-        }
+            .responseJSON(completionHandler : { response in
+                switch response.result {
+                case .Success(let data):
+                    let json = JSON(data)
+                    let name = json["name"].stringValue
+                    print(name)
+                case .Failure(let error):
+                    print("Request failed with error: \(error)")
+                }
+        })
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,7 +47,7 @@ class MovieViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        var movieNum = movieJSON["movies"].arrayValue.count
+        let movieNum = movieJSON["movies"].arrayValue.count
         return movieNum
     }
     
@@ -50,13 +58,13 @@ class MovieViewController: UIViewController, UITableViewDataSource, UITableViewD
         
         cell.movieTitle.text = movieJSON["movies"][row]["title"].stringValue
         cell.movieYear.text = movieJSON["movies"][row]["year"].stringValue
-        var movieImageUrl = movieJSON["movies"][row]["posters"]["thumbnail"].stringValue
+        let movieImageUrl = movieJSON["movies"][row]["posters"]["thumbnail"].stringValue
         
         if cell.movieImage.image == nil {
-            request(.GET, movieImageUrl).response{ _, _, data, _ in
-                let movieImage = UIImage(data: data as! NSData)
+            request(.GET, movieImageUrl).response(completionHandler : { _, _, data, _ in
+                let movieImage = UIImage(data: data!)
                 cell.movieImage.image = movieImage
-            }
+            })
         }
         
         return cell
